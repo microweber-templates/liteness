@@ -3,7 +3,7 @@
 $config = array();
 $config['name'] = "Liteness";
 $config['author'] = "Microweber";
-$config['version'] = 1.3;
+$config['version'] = 1.0;
 $config['standalone_module_skins'] = true;
 
 //$config['is_hidden_from_install_screen'] = true;
