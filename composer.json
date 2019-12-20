@@ -1,0 +1,22 @@
+{
+  "name": "microweber-templates/liteness",
+  "type": "microweber-template",
+  "description": "Liteness",
+  "keywords": [
+    "microweber",
+    "ecommerce",
+    "liteness"
+  ],
+  "homepage": "https://microweber.org/templates/microweber-templates/liteness",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MW Team",
+      "email": "contacts@microweber.com"
+    }
+  ] ,
+  "target-dir": "liteness",
+  "extra": {
+    "preview_url": "https://templates.microweber.com/liteness/"
+  }
+}
