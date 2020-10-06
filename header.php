@@ -45,8 +45,14 @@
                 return html;
             }
     </script>
+    <script>
+        mw.require('icon_selector.js');
 
-    <script>mw.lib.require('mw_icons_mind');</script>
+        mw.iconLoader()
+            .addIconSet('iconsMindLine')
+            .addIconSet('iconsMindSolid')
+            .addIconSet('mwIcons');
+    </script>
 </head>
 <body class="<?php print $font . ' ' . $bgimage; ?> <?php print helper_body_classes(); ?>">
 <div id="main-container">
