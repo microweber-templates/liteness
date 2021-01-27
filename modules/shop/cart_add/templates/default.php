@@ -90,7 +90,7 @@ else{
     
       <small>
         <?php if(is_string($key) and trim(strtolower($key)) == 'price'): ?>
-       <?php _e($key); ?>
+       <?php _lang($key, "templates/liteness"); ?>
         <?php else: ?>
         <?php print $key; ?>
         <?php endif; ?>:</small>
@@ -108,7 +108,7 @@ else{
       <span class="mw-price">
       <small>
         <?php if(is_string($key) and trim(strtolower($key)) == 'price'): ?>
-        <?php _e($key); ?>
+        <?php _lang($key, "templates/liteness"); ?>
         <?php else: ?>
         <?php print $key; ?>
         <?php endif; ?>:</small>
@@ -125,11 +125,11 @@ else{
 
   <?php if(!isset( $in_stock) or  $in_stock == false) : ?>
   <button class="btn-action add-to-cart" type="button" disabled="disabled" onclick="Alert('<?php print addslashes(_e("This item is out of stock and cannot be ordered",true)); ?>');">
-  <?php _e("Out of stock"); ?>
+  <?php _lang("Out of stock", "templates/liteness"); ?>
   </button>
   <?php else: ?>
   <button class="btn-action add-to-cart" type="button" onclick="mw.cart.add('.mw-add-to-cart-<?php print $params['id'] ?>', LocalPrice, '<?php print $title; ?>');">
-  <?php _e("Add to cart"); ?>
+  <?php _lang("Add to cart", "templates/liteness"); ?>
   </button>
   <?php  endif; ?>
 

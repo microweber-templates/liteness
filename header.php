@@ -38,9 +38,9 @@
 
                     + '<section style="text-align: center;">'
                     + '<h5>' + title + '</h5>'
-                    + '<p><?php _e("has been added to your cart"); ?></p>'
-                    + '<p><a href="javascript:;" onclick="mw.tools.modal.remove(\'#AddToCartModal\')" class="btn btn-default"><?php _e("Continue shopping"); ?></a>'
-                    + '<a href="<?php print checkout_url(); ?>" class="btn btn-warning"><?php _e("Checkout"); ?></a></p></section>';
+                    + '<p><?php _lang("has been added to your cart", "templates/liteness"); ?></p>'
+                    + '<p><a href="javascript:;" onclick="mw.tools.modal.remove(\'#AddToCartModal\')" class="btn btn-default"><?php _lang("Continue shopping", "templates/liteness"); ?></a>'
+                    + '<a href="<?php print checkout_url(); ?>" class="btn btn-warning"><?php _lang("Checkout", "templates/liteness"); ?></a></p></section>';
 
                 return html;
             }

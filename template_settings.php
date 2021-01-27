@@ -372,14 +372,14 @@
     </script>
 
 
-    <h1><?php _e("Template Settings"); ?></h1>
+    <h1><?php _lang("Template Settings", "templates/liteness"); ?></h1>
     <hr>
 
-    <label class="template-setting-label"><?php _e("Font"); ?></label>
+    <label class="template-setting-label"><?php _lang("Font", "templates/liteness"); ?></label>
     <div title="Template Font" id="font_family" class="mw-dropdown mw-dropdown-default body-class w100">
 
   <span class="mw-dropdown-value mw-ui-btn mw-dropdown-val">
-    <span class="mw-dropdown-val"><?php _e("Select"); ?></span>
+    <span class="mw-dropdown-val"><?php _lang("Select", "templates/liteness"); ?></span>
   </span>
         <div class="mw-dropdown-content">
             <ul>
@@ -424,7 +424,7 @@
     </div>
 
 
-    <span class="mw-ui-btn mw-ui-btn-medium right" onclick="CleanCSSandJSON();" style="margin-top: 4px;"><?php _e("Reset"); ?></span>
+    <span class="mw-ui-btn mw-ui-btn-medium right" onclick="CleanCSSandJSON();" style="margin-top: 4px;"><?php _lang("Reset", "templates/liteness"); ?></span>
     <!--<label class="template-setting-label ">Custom colors</label>
     <span class="picklabel">
     <a href="javascript:;" class="pick-custom custom-color scheme-transparent" data-func="primary"></a>
@@ -447,16 +447,16 @@
 
     <hr>
 
-    <label class="template-setting-label"><?php _e("Site Background"); ?></label>
+    <label class="template-setting-label"><?php _lang("Site Background", "templates/liteness"); ?></label>
 
     <span class="picklabel">
     <a href="javascript:;" class="pick-custom custom-color scheme-transparent" data-func="third"></a>
-    <label><?php _e("Background color"); ?></label>
+    <label><?php _lang("Background color", "templates/liteness"); ?></label>
 </span>
 
     <hr>
 
-    <label class="template-setting-label"><?php _e("Background image"); ?></label>
+    <label class="template-setting-label"><?php _lang("Background image", "templates/liteness"); ?></label>
 
     <div class="body-bgs-holder">
         <a href="javascript:;" class="pick-image scheme-transparent" data-value='bgimage0'></a>
@@ -486,7 +486,7 @@
                     <div id="ts_bg_position" class="mw-dropdown mw-dropdown-type-wysiwyg">
           <span class="mw-dropdown_val-holder">
               <span class="mw-dropdown-arrow"></span>
-              <span style="width: auto;display: block" class="mw-dropdown-val"><?php _e("Position"); ?></span>
+              <span style="width: auto;display: block" class="mw-dropdown-val"><?php _lang("Position", "templates/liteness"); ?></span>
           </span>
                         <div class="mw-dropdown-content">
                             <ul style="width: 100%">
@@ -495,19 +495,19 @@
                                         <table align="center" cellspacing="0" cellpadding="2">
                                             <tbody>
                                             <tr>
-                                                <td><span data-value="left top" class="square_map_item square_map_item_default"><?php _e("Left Top"); ?></span></td>
-                                                <td><span data-value="center top" class="square_map_item"><?php _e("Center Top"); ?></span></td>
-                                                <td><span data-value="right top" class="square_map_item"><?php _e("Right Top"); ?></span></td>
+                                                <td><span data-value="left top" class="square_map_item square_map_item_default"><?php _lang("Left Top", "templates/liteness"); ?></span></td>
+                                                <td><span data-value="center top" class="square_map_item"><?php _lang("Center Top", "templates/liteness"); ?></span></td>
+                                                <td><span data-value="right top" class="square_map_item"><?php _lang("Right Top", "templates/liteness"); ?></span></td>
                                             </tr>
                                             <tr>
-                                                <td><span data-value="left center" class="square_map_item"><?php _e("Left Center"); ?></span></td>
-                                                <td><span data-value="center" class="square_map_item"><?php _e("Center"); ?></span></td>
-                                                <td><span data-value="right center" class="square_map_item"><?php _e("Right Center"); ?></span></td>
+                                                <td><span data-value="left center" class="square_map_item"><?php _lang("Left Center", "templates/liteness"); ?></span></td>
+                                                <td><span data-value="center" class="square_map_item"><?php _lang("Center", "templates/liteness"); ?></span></td>
+                                                <td><span data-value="right center" class="square_map_item"><?php _lang("Right Center", "templates/liteness"); ?></span></td>
                                             </tr>
                                             <tr>
-                                                <td><span data-value="left bottom" class="square_map_item"><?php _e("Left Bottom"); ?></span></td>
-                                                <td><span data-value="center bottom" class="square_map_item"><?php _e("Center Bottom"); ?></span></td>
-                                                <td><span data-value="right bottom" class="square_map_item"><?php _e("Right Bottom"); ?></span></td>
+                                                <td><span data-value="left bottom" class="square_map_item"><?php _lang("Left Bottom", "templates/liteness"); ?></span></td>
+                                                <td><span data-value="center bottom" class="square_map_item"><?php _lang("Center Bottom", "templates/liteness"); ?></span></td>
+                                                <td><span data-value="right bottom" class="square_map_item"><?php _lang("Right Bottom", "templates/liteness"); ?></span></td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -521,12 +521,12 @@
                 </div>
                 <div class="mw-ui-col">
                     <div title="Background Size" id="ts_bg_size" class="mw-dropdown mw-dropdown-type-wysiwyg"> <span class="mw-dropdown-val_holder">
-            <span class="mw-dropdown-arrow"></span> <span class="mw-dropdown-val" style="width: auto;display: block"><?php _e("Size"); ?></span> </span>
+            <span class="mw-dropdown-arrow"></span> <span class="mw-dropdown-val" style="width: auto;display: block"><?php _lang("Size", "templates/liteness"); ?></span> </span>
                         <div class="mw-dropdown-content" style="display: none;">
                             <ul>
-                                <li value="auto"><a href="javascript:;"><?php _e("Auto"); ?></a></li>
-                                <li value="contain"><a href="javascript:;"><?php _e("Fit"); ?></a></li>
-                                <li value="cover"><a href="javascript:;"><?php _e("Cover"); ?></a></li>
+                                <li value="auto"><a href="javascript:;"><?php _lang("Auto", "templates/liteness"); ?></a></li>
+                                <li value="contain"><a href="javascript:;"><?php _lang("Fit", "templates/liteness"); ?></a></li>
+                                <li value="cover"><a href="javascript:;"><?php _lang("Cover", "templates/liteness"); ?></a></li>
                             </ul>
                         </div>
                     </div>
@@ -534,7 +534,7 @@
             </div>
         </div>
 
-        <span class="mw-ui-btn mw-ui-btn-medium" id="upload_custom_body_image"><?php _e("Upload your image"); ?></span>
+        <span class="mw-ui-btn mw-ui-btn-medium" id="upload_custom_body_image"><?php _lang("Upload your image", "templates/liteness"); ?></span>
         <div class="mw-ui-progress-small" id="image-upload-progress" style="display: none">
             <div style="width: 0%;" class="mw-ui-progress-bar"></div>
         </div>

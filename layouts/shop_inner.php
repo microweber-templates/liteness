@@ -32,7 +32,7 @@
             <div class="container">
                 <div class="box-container">
                     <div class="latest-items">
-                        <h2 class="section-title element"><?php _e('Related Products'); ?></h2>
+                        <h2 class="section-title element"><?php _lang('Related Products', "templates/liteness"); ?></h2>
                         <module type="shop/products" related="true" limit="3" ajax-paging="true" data-show="thumbnail,title,add_to_cart,price"/>
                     </div>
                 </div>
